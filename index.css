@@ -76,7 +76,7 @@ body{
         color: #e68429;
     }
     section{
-        height: 400vh;
+        height: 600vh;
         width: 100%;
         border: 1px solid;
     }
@@ -336,6 +336,61 @@ body{
     .view_details:hover{
         background-color: #a83f15;
         transition-duration: 300ms;
+    }
+    .feedback{
+        height: 100vh;
+        width: 100%;
+        border: 1px solid;
+    }
+    .feedback_heading{
+        height: 10vh;
+        font-size: 26px;
+        font-weight: 600;
+        text-align: center;
+        align-content: center;
+    }
+    .feedback_div{
+        height: 60vh;
+        width: 100%;
+        border: 1px solid;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .feedback_div1,.feedback_div2,.feedback_div3{
+        height: 50vh;
+        width: 20vw;
+        border-radius: 8px 8px 8px 8px;
+        box-shadow: 0px 5px 5px grey;
+        display: grid;
+        place-content: center;
+    }
+    .feedback_div1{
+        background-image: url("Images/feedback\ first\ image.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .feedback_div2{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("Images/second\ feedback\ background\ image.jpg");
+    }
+    .feedback_div3{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("Images/third\ feedback\ background\ image.jpg");
+    }
+    .feedback_info{
+        height: 25vh;
+        width: 17vw;
+        border: 1px solid grey;
+        background-color: #8080805c;
+        border-radius: 8px 8px 8px 8px;
+        backdrop-filter: blur(5px);
+        z-index: auto;
     }
 }
 
