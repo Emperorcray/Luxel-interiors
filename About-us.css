@@ -199,9 +199,72 @@ body{
         color: #4b5563;
     }
     .meet_our_team{
-        height: 100vh;
+        height: 140vh;
         width: 100%;
         border: 1px solid;
+        align-content: center;
+    }
+    .meet_team_heading{
+        height: 20vh;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+    .meet_team_heading>div{
+        text-align: center;
+        font-size: 34px;
+        font-weight: 700;
+    }
+    .meet_team_heading>p{
+        width: 48vw;
+        font-size: 18px;
+        text-align: center;
+        color: #4b5563;
+        font-weight: 500;
+    }
+    .myteam_div{
+        height: 94vh;
+        width: 100%;
+        border: 1px solid;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .myteam_div>div{
+        height: 80vh;
+        width: 30vw;
+        border-radius: 8px 8px 8px 8px;
+        box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    }
+    .team_member_img{
+        height: 50vh;
+        width: 100%;
+    }
+    .team_member_img>img{
+        height: 100%;
+        width: 100%;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    .member_name{
+        width: 20vw;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .role{
+        width: 20vw;
+        font-weight: 600;
+        color: #e68429;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .member_info{
+        width: 20vw;
+        color: #4b5563;
+        margin-top: 10px;
+        margin-left: 30px;
     }
     footer{
         height: 50vh;
