@@ -167,7 +167,7 @@ body{
         color: #3d3d3d;
     }
     .showing_products_container{
-        height: 100vh;
+        height: 140vh;
         width:  75vw;
         border: 1px solid;
         align-content: center;
@@ -198,6 +198,18 @@ body{
         color: #3d3d3d;
         text-indent: 5px;
         border-radius: 6px 6px 6px 6px;
+    }
+    .products_container{
+        height: 110vh;
+        width: 100%;
+        border: 1px solid;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .products_container>div{
+        height: 45vh;
+        width: 22vw;
+        border: 1px solid;
     }
     footer{
         height: 50vh;
