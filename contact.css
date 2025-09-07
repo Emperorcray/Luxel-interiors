@@ -76,6 +76,198 @@ body{
     .nav_link2>:hover{
         color: #e68429;
     }
+    section{
+        height: 300vh;
+        width: 100%;
+        border: 1px solid;
+    }
+    .main_div{
+        height: 50vh;
+        width: 100%;
+        background-color: #fff7ed;
+        display: grid;
+        place-content: center;
+        gap: 15px;
+    }
+    .main_div>div{
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .main_div>p{
+        width: 64vw;
+        color: rgb(55 65 81);
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+    }
+    .contact_div{
+        height: 180vh;
+        width: 100%;
+        border: 1px solid;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .send_us_message{
+        height: 90vh;
+        width: 40vw;
+        border: 1px solid;
+    }
+    .send_message_heading{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .send_us_message>form{
+        height: 64vh;
+        width: 100%;
+        align-content: center;
+    }
+    .fullname{
+        height: 13vh;
+        width: 17vw;
+        display: inline-block;
+    }
+    .fullname>input{
+        height: 6vh;
+        width: 16vw;
+        border: 1px solid #d1d1d1;
+        text-indent: 10px;
+        border-radius: 8px 8px 8px 8px;
+        margin-top: 6px;
+        font-family: inherit;
+    }
+    .fullname>input:focus{
+        outline: 2px solid black;
+    }
+    .email{
+        height: 13vh;
+        width: 17vw;
+        display: inline-block;
+    }
+    .email>input{
+        height: 6vh;
+        width: 16vw;
+        border: 1px solid #d1d1d1;
+        text-indent: 10px;
+        border-radius: 8px 8px 8px 8px;
+        margin-top: 6px;
+        font-family: inherit;
+    }
+    .email>input:focus{
+        outline: 2px solid black;
+    }
+    .phonenumber{
+        height: 13vh;
+        width: 17vw;
+        display: inline-block;
+    }
+    .phonenumber>input{
+        height: 6vh;
+        width: 16vw;
+        border: 1px solid #d1d1d1;
+        text-indent: 10px;
+        border-radius: 8px 8px 8px 8px;
+        margin-top: 6px;
+        font-family: inherit;
+    }
+    .phonenumber>input:focus{
+        outline: 2px solid black;
+    }
+    .services_interested{
+        height: 13vh;
+        width: 17vw;
+        display: inline-block;
+    }
+    .services_interested>select{
+        height: 6vh;
+        width: 17vw;
+        border: 1px solid #d1d1d1;
+        text-indent: 6px;
+        border-radius: 8px 8px 8px 8px;
+        margin-top: 6px;
+        background-color: white;
+        font-family: inherit;
+        font-size: 15px;
+    }
+    .services_interested>select:focus{
+        outline: 2px solid black;
+    }
+    .send_us_message>form>textarea{
+        height: 20vh;
+        width: 34vw;
+        border: 1px solid #d1d1d1;
+        border-radius: 8px 8px 8px 8px;
+        text-indent: 10px;
+    }
+    .send_us_message>form>textarea:focus{
+        outline: 2px solid black;
+    }
+    .send_us_message>form>textarea::placeholder{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .submit{
+        height: 7vh;
+        width: 34vw;
+        background-color: #e68429;
+        border: 1px solid #e68429;
+        color: white;
+        font-weight: 600;
+        font-size: 15px;
+        border-radius: 6px 6px 6px 6px;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+    .submit:hover{
+        background-color: #ca5b15;
+        border: 1px solid #ca5b15;
+        transition-duration: 300ms;
+    }
+    .get_in_touch{
+        height: 150vh;
+        width: 50vw;
+        border: 1px solid;
+    }
+    .get_in_touch_heading{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .get_in_touch_summary{
+        color: #5d5d5d;
+        margin-top: 20px;
+    }
+    .showroom{
+        height: 20vh;
+        width: 25vw;
+        border: 1px solid;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+    .showroom_icon{
+        height: 8vh;
+        width: 4vw;
+        background-color: #faeacb;
+        align-content: center;
+        text-align: center;
+        border-radius: 8px 8px 8px 8px;
+    }
+    .showroom_icon>i{
+        font-size: 22px;
+        color: #e68429;
+    }
+    .showroom_info{
+        height: 16vh;
+        width: 20vw;
+        border: 1px solid;
+    }
+    .showroom_heading{
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .showroom_address{
+        color: #5d5d5d;
+    }
     footer{
         height: 50vh;
         width: 100%;
