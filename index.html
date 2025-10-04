@@ -9,6 +9,7 @@
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-straight/css/uicons-solid-straight.css'>
     <link rel="stylesheet" href="index.css">
+    <script src="frontendscripts/script.js"></script>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-thin-chubby/css/uicons-thin-chubby.css'>
@@ -18,6 +19,16 @@
     <header>
         <!-- This contains the navigation menu (the logo, the homepage link and the cart link)-->
         <nav>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="About-us.html">About Us</a>
+                <a href="services.html">Services</a>
+                <a href="products.html">Products</a>
+                <a href="contact.html">Contacts</a>
+            </div>
+            <!-- Use any element to open the sidenav -->
+            <span onclick="openNav()" class="sidemenu"><i class="fi fi-bs-menu-burger"></i></span>
             <!-- The logo-->
             <div class="logo">
                 <i class="fi fi-ss-home"></i>
@@ -32,7 +43,10 @@
                 <a href="contact.html">Contacts</a>
             </div>
             <div class="nav_link2">
-                <a href="javascript:void(0)" title="Cart"><i class="fi fi-br-shopping-cart"></i></a>
+                <a href="javascript:void(0)" title="Cart" onclick="cartalert()" id="cart"><i class="fi fi-br-shopping-cart"></i></a>
+            </div>
+            <div id="mycart" class="cart-content">
+                <p>Cart is still in development</p>
             </div>
         </nav>
     </header>
