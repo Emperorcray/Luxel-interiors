@@ -5295,6 +5295,9 @@ body{
         z-index: 1;
         background-color: white;
     }
+    .sidenav{
+        display: none;
+    }
     /* This styles the logo */
     .logo{
         height: 8vh;
