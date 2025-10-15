@@ -135,7 +135,7 @@ body{
         display: block;
     }
     section{
-        height: 700vh;
+        height: 690vh;
         width: 100%;
     }
     .main_div{
@@ -403,7 +403,7 @@ body{
         transition-duration: 300ms;
     }
     .feedback{
-        height: 80vh;
+        height: 180vh;
         width: 100%;
         align-content: center;
     }
@@ -415,15 +415,15 @@ body{
         align-content: center;
     }
     .feedback_div{
-        height: 60vh;
+        height: 160vh;
         width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
+        display: grid;
+        place-content: center;
+        gap: 15px;
     }
     .feedback_div1,.feedback_div2,.feedback_div3{
         height: 50vh;
-        width: 28vw;
+        width: 40vw;
         border-radius: 8px 8px 8px 8px;
         box-shadow: 0px 5px 5px grey;
         display: grid;
@@ -448,8 +448,8 @@ body{
         background-image: url("Images/third\ feedback\ background\ image.jpg");
     }
     .feedback_info{
-        height: 25vh;
-        width: 20vw;
+        height: 30vh;
+        width: 30vw;
         border: 1px solid grey;
         background-color: #8080805c;
         border-radius: 8px 8px 8px 8px;
@@ -462,7 +462,7 @@ body{
     }
     .feedback_img>img{
         height: 6vh;
-        width: 4vw;
+        width: 6vw;
         border-radius: 20px 20px 20px 20px;
     }
     .reviewer_name{
@@ -490,14 +490,14 @@ body{
     .Transform_title{
         color: white;
         font-weight: 700;
-        font-size: 30px;
+        font-size: 26px;
         text-align: center;
     }
     .Transform_summary{
         color: #faeacb;
         font-weight: 600;
         text-align: center;
-        font-size: 16px;
+        font-size: 14px;
         margin-top: 10px;
     }
     .get_started_btn{
@@ -515,7 +515,7 @@ body{
         text-align: center;
         font-weight: 600;
         border-radius: 10px 10px 10px 10px;
-        font-size: 14px;
+        font-size: 13px;
     }
     .get_started_btn>a:hover{
         transition-duration: 300ms;
