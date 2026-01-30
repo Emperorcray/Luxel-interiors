@@ -6406,11 +6406,11 @@ body{
 }
 @media screen and (min-width:843px) and (max-width:893px){
     header{
-        height: 15vh;
+        height: 82px;
         width: 100%;
     }
     nav{
-        height: 15vh;
+        height: 80px;
         width: 100%;
         border: none;
         display: flex;
@@ -6428,7 +6428,6 @@ body{
     }
     /* This styles the logo */
     .logo{
-        height: 8vh;
         width: 16vw;
         display: flex;
         justify-content: space-evenly;
@@ -6444,9 +6443,8 @@ body{
     .logo>p{
         font-weight: 700;
     }
-    /* This styles the div that has the the index, aboutu, services, products and contact page links */ 
+    /* This styles the div that has the the index, about us, services, products and contact page links */ 
     .nav_link1{
-        height: 8vh;
         width: 40vw;
         display: flex;
         justify-content: space-evenly;
@@ -6456,7 +6454,6 @@ body{
         color: black;
         text-decoration: none;
         display: inline-block;
-        height: 6vh;
         width: 8vw;
         align-content: center;
         text-align: center;
@@ -6468,7 +6465,6 @@ body{
     }
     /* This styles the div that has the cart and profile links */
     .nav_link2{
-        height: 6vh;
         width: 8vw;
         display: flex;
         justify-content: space-evenly;
@@ -6485,18 +6481,17 @@ body{
         display: none;
     }
     section{
-        height: 447vh;
+        height: 4600px;
         width: 100%;
     }
     .main_div{
-        height: 150vh;
+        height: 800px;
         width: 100%;
         display: grid;
         place-content: center;
         gap: 10px;
     }
     .main_title{
-        height: 30vh;
         width: 50vw;
         text-align: center;
         font-size: 45px;
@@ -6509,7 +6504,7 @@ body{
         color: #e68429;
     }
     .subtitle{
-        height: 10vh;
+        height: 60px;
         width: 50vw;
         text-align: center;
         color: gray;
@@ -6518,13 +6513,13 @@ body{
         align-content: center;
     }
     .main_search_bar{
-        height: 15vh;
+        height: 80px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .main_search_bar>div{
-        height: 10vh;
+        height: 65px;
         width: 38vw;
         border: 1px solid #e7e7e7;
         border-radius: 13px 13px 13px 13px;
@@ -6555,7 +6550,7 @@ body{
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     .search_btn{
-        height: 7vh;
+        height: 40px;
         width: 10vw;
         color: black;
         text-decoration: none;
@@ -6572,12 +6567,12 @@ body{
         transition-duration: 300ms;
     }
     .main_img{
-        height: 50vh;
+        height: 250px;
         width: 50vw;
         border-radius: 10px 10px 10px 10px;
     }
     .main_links{
-        height: 17vh;
+        height: 80px;
         width: 32vw;
         display: flex;
         justify-content: space-evenly;
@@ -6590,7 +6585,7 @@ body{
         background-color: #e68429;
         display: inline-block;
         width: 14vw;
-        height: 9vh;
+        height: 60px;
         text-align: center;
         align-content: center;
         font-weight: 600;
@@ -6609,7 +6604,7 @@ body{
         text-decoration: none;
         font-weight: 600;
         width: 13vw;
-        height: 8vh;
+        height: 58px;
         border: 2px solid #e68429;
         text-align: center;
         align-content: center;
@@ -6622,11 +6617,11 @@ body{
         transition-duration: 300ms;
     }
     .why_choose_us{
-        height: 77vh;
+        height: 500px;
         width: 100%;
     }
     .why_choose_heading{
-        height: 25vh;
+        height: 150px;
         display: grid;
         place-content: center;
         gap: 20px;
@@ -6644,14 +6639,14 @@ body{
         font-size: 16px;
     }
     .reasons_container{
-        height: 50vh;
+        height: 250px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
     .reasons_div{
-        height: 35vh;
+        height: 200px;
         width: 20vw;
         text-align: center;
         align-content: center;
@@ -6671,7 +6666,7 @@ body{
         font-size: 14px;
     }
     .reasons_info{
-        height: 13vh;
+        height: 60px;
         width: 18vw;
         color: gray;
         font-weight: 400;
@@ -6680,13 +6675,13 @@ body{
         margin-left: 12px;
     }
     .Featured_products{
-        height: 90vh;
+        height: 550px;
         width: 100%;
         background-color: #e5e7eb7a;
         align-content: center;
     }
     .features_heading{
-        height: 14vh;
+        height: 80px;
         width: 100%;
         text-align: center;
         align-content: center;
@@ -6702,20 +6697,20 @@ body{
         align-content: center;
     }
     .products_div{
-        height: 70vh;
+        height: 420px;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
     }
     .products{
-        height: 60vh;
+        height: 350px;
         width: 30vw;
         box-shadow: 5px 10px 18px #8080807a;
         border-radius: 10px 10px 10px 10px;
     }
     .product_img{
-        height: 40vh;
+        height: 200px;
         width: 100%;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -6726,7 +6721,7 @@ body{
         font-weight: 600;
     }
     .products>div{
-        height: 10vh;
+        height: 60px;
         width: 100%;
         display: flex;
         align-items: center;
@@ -6743,7 +6738,7 @@ body{
         background-color: #e68429;
         display: inline-block;
         width: 10vw;
-        height: 7.3vh;
+        height: 45px;
         text-align: center;
         align-content: center;
         border-radius: 6px 6px 6px 6px;
@@ -7002,7 +6997,7 @@ body{
 }
 @media screen and (min-width:894px) and (max-width:944px){
     header{
-        height: 80px;
+        height: 82px;
         width: 100%;
     }
     nav{
@@ -7090,7 +7085,7 @@ body{
         gap: 8px;
     }
     .main_title{
-        height: 198px;
+        height: 300px;
         width: 50vw;
         text-align: center;
         align-content: center;
@@ -7109,7 +7104,7 @@ body{
         text-align: center;
         color: gray;
         font-weight: 600;
-        font-size: 18px;
+        font-size: 16px;
         align-content: center;
     }
     .main_search_bar{
@@ -7167,7 +7162,7 @@ body{
         transition-duration: 300ms;
     }
     .main_img{
-        height: 300px;
+        height: 250px;
         width: 50vw;
         border-radius: 10px 10px 10px 10px;
     }
@@ -7202,7 +7197,7 @@ body{
         color: #e68429;
         text-decoration: none;
         font-weight: 600;
-        width: 13vw;
+        width: 16vw;
         height: 60px;
         border: 2px solid #e68429;
         text-align: center;
