@@ -4515,11 +4515,11 @@ body{
 }
 @media screen and (min-width:690px) and (max-width:740px){
     header{
-        height: 13vh;
+        height: 74px;
         width: 100%;
     }
     nav{
-        height: 13vh;
+        height: 70px;
         width: 100%;
         border: none;
         display: flex;
@@ -4594,7 +4594,6 @@ body{
     }
     /* This styles the div that has the the index, aboutu, services, products and contact page links */ 
     .nav_link1{
-        height: 8vh;
         width: 15vw;
         display: flex;
         justify-content: space-evenly;
@@ -4608,7 +4607,6 @@ body{
     }
     /* This styles the div that has the cart and profile links */
     .nav_link2{
-        height: 6vh;
         width: 8vw;
         display: flex;
         justify-content: space-evenly;
@@ -4622,7 +4620,7 @@ body{
         color: #e68429;
     }
     .cart-content{
-        height: 15vh;
+        height: 80px;
         width: 30vw;
         display: none;
         background-color: #e7e7e7;
@@ -4641,17 +4639,18 @@ body{
         display: block;
     }
     section{
-        height: 480vh;
+        height: 3000px;
         width: 100%;
+        border:1px solid;
     }
     .main_div{
-        height: 140vh;
+        height: 700px;
         width: 100%;
         display: grid;
         place-content: center;
     }
     .main_title{
-        height: 30vh;
+        height: 150px;
         width: 60vw;
         text-align: center;
         align-content: center;
@@ -4665,7 +4664,7 @@ body{
         color: #e68429;
     }
     .subtitle{
-        height: 10vh;
+        height: 60px;
         width: 60vw;
         text-align: center;
         color: gray;
@@ -4674,14 +4673,14 @@ body{
         align-content: center;
     }
     .main_search_bar{
-        height: 14vh;
+        height: 80px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .main_search_bar>div{
-        height: 9vh;
-        width: 38vw;
+        height: 60px;
+        width: 40vw;
         border: 1px solid #e7e7e7;
         border-radius: 13px 13px 13px 13px;
         display: flex;
@@ -4711,8 +4710,9 @@ body{
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     .search_btn{
-        height: 6vh;
+        height: 40px;
         width: 10vw;
+        cursor: pointer;
         color: black;
         text-decoration: none;
         display: inline-block;
@@ -4728,12 +4728,12 @@ body{
         transition-duration: 300ms;
     }
     .main_img{
-        height: 50vh;
+        height: 250px;
         width: 60vw;
         border-radius: 10px 10px 10px 10px;
     }
     .main_links{
-        height: 17vh;
+        height: 80px;
         width: 35vw;
         display: flex;
         justify-content: space-evenly;
@@ -4746,7 +4746,7 @@ body{
         background-color: #e68429;
         display: inline-block;
         width: 14vw;
-        height: 8vh;
+        height: 50px;
         text-align: center;
         align-content: center;
         font-weight: 600;
@@ -4765,7 +4765,7 @@ body{
         text-decoration: none;
         font-weight: 600;
         width: 16vw;
-        height: 7.5vh;
+        height: 50px;
         border: 2px solid #e68429;
         text-align: center;
         align-content: center;
