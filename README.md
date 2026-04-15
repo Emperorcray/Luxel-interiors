@@ -5,6 +5,7 @@ An e-commerce website built to help users find the best furniture for the interi
 **Client:** HTML, CSS, JavaScript
 
 **Server:** PHP
+**Database:** MySQL
 
 ## Features
 
