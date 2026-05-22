@@ -6,6 +6,8 @@ An e-commerce website built to help users find the best furniture for the interi
 
 **Server:** PHP
 
+**Database:** MySQL
+
 ## Features
 
 - Multi-page navigation with About us, services, products, contact pages
