@@ -104,34 +104,40 @@ body{
         font-size: 20px;
         text-align: center;
     }
+    /* This styles the div that has the form to send us a message and the div that has our contact information */
     .contact_div{
-        height: 180vh;
+        height: 1500px;
         width: 100%;
         border: 1px solid;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
+    /* This styles the div that has the form to send us a message */
     .send_us_message{
-        height: 150vh;
+        height: 1400px;
         width: 40vw;
     }
+    /* This styles the heading of the form to send us a message */
     .send_message_heading{
         font-size: 28px;
         font-weight: 700;
     }
+    /* This styles the form to send us a message */
     .send_us_message>form{
-        height: 64vh;
+        height: 600px;
         width: 100%;
         align-content: center;
     }
+    /* This styles the div that has the input field for the full name in the form to send us a message */
     .fullname{
-        height: 13vh;
+        height: 100px;
         width: 17vw;
         display: inline-block;
     }
+    /* This styles the input field for the full name in the form to send us a message */
     .fullname>input{
-        height: 6vh;
+        height: 50px;
         width: 16vw;
         border: 1px solid #d1d1d1;
         text-indent: 10px;
@@ -139,16 +145,19 @@ body{
         margin-top: 6px;
         font-family: inherit;
     }
+    /* This styles the input field for the full name when it is focused in the form to send us a message */
     .fullname>input:focus{
         outline: 2px solid black;
     }
+    /* This styles the div that has the input field for the email address in the form to send us a message */
     .email{
-        height: 13vh;
+        height: 100px;
         width: 17vw;
         display: inline-block;
     }
+    /* This styles the input field for the email address in the form to send us a message */
     .email>input{
-        height: 6vh;
+        height: 50px;
         width: 16vw;
         border: 1px solid #d1d1d1;
         text-indent: 10px;
@@ -156,16 +165,19 @@ body{
         margin-top: 6px;
         font-family: inherit;
     }
+    /* This styles the input field for the email address when it is focused in the form to send us a message */
     .email>input:focus{
         outline: 2px solid black;
     }
+    /* This styles the div that has the input field for the phone number in the form to send us a message */
     .phonenumber{
-        height: 13vh;
+        height: 100px;
         width: 17vw;
         display: inline-block;
     }
+    /* This styles the input field for the phone number in the form to send us a message */
     .phonenumber>input{
-        height: 6vh;
+        height: 50px;
         width: 16vw;
         border: 1px solid #d1d1d1;
         text-indent: 10px;
@@ -173,16 +185,19 @@ body{
         margin-top: 6px;
         font-family: inherit;
     }
+    /* This styles the input field for the phone number when it is focused in the form to send us a message */
     .phonenumber>input:focus{
         outline: 2px solid black;
     }
+    /* This styles the div that has the select field for the services interested in the form to send us a message */
     .services_interested{
-        height: 13vh;
+        height: 100px;
         width: 17vw;
         display: inline-block;
     }
+    /* This styles the select field for the services interested in the form to send us a message */
     .services_interested>select{
-        height: 6vh;
+        height: 50px;
         width: 17vw;
         border: 1px solid #d1d1d1;
         text-indent: 6px;
@@ -192,11 +207,13 @@ body{
         font-family: inherit;
         font-size: 15px;
     }
+    /* This styles the select field for the services interested in when it is focused in the form to send us a message */
     .services_interested>select:focus{
         outline: 2px solid black;
     }
+    /* This styles the textarea for the message in the form to send us a message */
     .send_us_message>form>textarea{
-        height: 20vh;
+        height: 200px;
         width: 34vw;
         border: 1px solid #d1d1d1;
         border-radius: 8px 8px 8px 8px;
@@ -204,15 +221,18 @@ body{
         padding-top: 10px;
         font-family: inherit;
    }
+   /* This styles the textarea for the message when it is focused in the form to send us a message */
     .send_us_message>form>textarea:focus{
         outline: 2px solid black;
     }
+    /* This styles the placeholder text in the textarea for the message in the form to send us a message */
     .send_us_message>form>textarea::placeholder{
         font-size: 14px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
+    /* This styles the submit button in the form to send us a message */
     .submit{
-        height: 7vh;
+        height: 60px;
         width: 34vw;
         background-color: #e68429;
         border: 1px solid #e68429;
@@ -223,14 +243,16 @@ body{
         cursor: pointer;
         margin-top: 15px;
     }
+    /* This styles the submit button when it is hovered in the form to send us a message */
     .submit:hover{
         background-color: #ca5b15;
         border: 1px solid #ca5b15;
         transition-duration: 300ms;
     }
     .get_in_touch{
-        height: 150vh;
+        height: 1400px;
         width: 50vw;
+        border: 1px solid;
     }
     .get_in_touch_heading{
         font-size: 30px;
@@ -241,14 +263,14 @@ body{
         margin-top: 20px;
     }
     .showroom{
-        height: 20vh;
+        height: 150px;
         width: 25vw;
         display: flex;
         justify-content: space-between;
         margin-top: 15px;
     }
     .showroom_icon{
-        height: 8vh;
+        height: 50px;
         width: 4vw;
         background-color: #faeacb;
         align-content: center;
@@ -260,7 +282,7 @@ body{
         color: #e68429;
     }
     .showroom_info{
-        height: 16vh;
+        height: 150px;
         width: 20vw;
     }
     .showroom_heading{
@@ -271,7 +293,7 @@ body{
         color: #5d5d5d;
     }
     .show{
-        height: 30vh;
+        height: 200px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -282,7 +304,7 @@ body{
         font-size: 18px;
     }
     .show>div{
-        height: 20vh;
+        height: 150px;
         width: 20vw;
         border: 1px solid #e7e7e7;
         background-color: #e7e7e7;
