@@ -3,6 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Open Graph (works on most platforms) -->
+    <meta property="og:title" content="Your Page Title" />
+    <meta property="og:description" content="A short description of your page." />
+    <meta property="og:image" content="https://luxelinteriors.infinityfree.me/preview-image.jpg" />
+    <meta property="og:url" content="https://luxelinteriors.infinityfree.me" />
+    <meta property="og:type" content="website" />
+    <!-- Twitter/X specific (overrides OG tags on X) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Your Page Title" />
+    <meta name="twitter:description" content="A short description of your page." />
+    <meta name="twitter:image" content="https://luxelinteriors.infinityfree.me/preview-image.jpg" />
     <title>LUXELINTERIORS</title>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-bold-straight/css/uicons-bold-straight.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css'>
@@ -31,7 +42,6 @@
             <span onclick="openNav()" class="sidemenu"><i class="fi fi-bs-menu-burger"></i></span>
             <!-- The logo-->
             <div class="logo">
-                <i class="fi fi-ss-home"></i>
                 <p>LUXELINTERIORS</p>
             </div>
             <!-- This contains the homepage, about us, services, products and contacts links-->
@@ -44,6 +54,10 @@
             </div>
             <div class="nav_link2">
                 <a href="javascript:void(0)" title="Cart" onclick="cartalert()" id="cart"><i class="fi fi-br-shopping-cart"></i></a>
+                <!-- Sign Up link -->
+                <a href="Auth/index.html" class="signup_btn">Sign Up</a>
+                <!-- User profile link -->
+                <div style="cursor: pointer;"><i class="fi fi-rr-user"></i></div>
             </div>
             <div id="mycart" class="cart-content">
                 <p>Cart is still in development</p>
