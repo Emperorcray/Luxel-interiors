@@ -20,12 +20,21 @@
     <header>
         <!-- This contains the navigation menu (the logo, the homepage link and the cart link)-->
         <nav>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="About-us.html">About Us</a>
+                <a href="services.html">Services</a>
+                <a href="products.html">Products</a>
+                <a href="contact.html">Contacts</a>
+            </div>
+            <!-- Use any element to open the sidenav -->
+            <span onclick="openNav()" class="sidemenu"><i class="fi fi-bs-menu-burger"></i></span>
             <!-- The logo-->
             <div class="logo">
-                <i class="fi fi-ss-home"></i>
                 <p>LUXELINTERIORS</p>
             </div>
-            <!-- This contains the homepage, aboutus, services, products and contacts links-->
+            <!-- This contains the homepage, about us, services, products and contacts links-->
             <div class="nav_link1">
                 <a href="index.html">Home</a>
                 <a href="About-us.html">About Us</a>
@@ -34,7 +43,14 @@
                 <a href="contact.html">Contacts</a>
             </div>
             <div class="nav_link2">
-                <a href="javascript:void(0)" title="Cart"><i class="fi fi-br-shopping-cart"></i></a>
+                <a href="javascript:void(0)" title="Cart" onclick="cartalert()" id="cart"><i class="fi fi-br-shopping-cart"></i></a>
+                <!-- Sign Up link -->
+                <a href="Auth/index.html" class="signup_btn">Sign Up</a>
+                <!-- User profile link -->
+                <div style="cursor: pointer;"><i class="fi fi-rr-user"></i></div>
+            </div>
+            <div id="mycart" class="cart-content">
+                <p>Cart is still in development</p>
             </div>
         </nav>
     </header>
