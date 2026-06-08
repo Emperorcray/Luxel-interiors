@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Open Graph (works on most platforms) -->
+    <meta property="og:title" content="Your Page Title" />
+    <meta property="og:description" content="A short description of your page." />
+    <meta property="og:image" content="https://luxelinteriors.infinityfree.me/preview-image.jpg" />
+    <meta property="og:url" content="https://luxelinteriors.infinityfree.me" />
+    <meta property="og:type" content="website" />
+    <!-- Twitter/X specific (overrides OG tags on X) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Your Page Title" />
+    <meta name="twitter:description" content="A short description of your page." />
+    <meta name="twitter:image" content="https://luxelinteriors.infinityfree.me/preview-image.jpg" />
+    <title>Create your account - Luxel Interiors</title>
+    <!-- Favicon -->
+    <link rel="icon" href="Images/favicon.png">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Flaticon Icons -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-brands/css/uicons-brands.css'>
+</head>
+<body>
+    <!-- Section for the main content -->
+    <section>
+        <!-- Logo -->
+        <div class="logo">LUXEL INTERIORS</div>
+        <!-- Registration Form -->
+        <form action="" method="">
+            <!-- Heading -->
+            <p class="FormHeading">Sign Up</p>
+            <!-- Google Login -->
+            <div class="googleLogin">
+                <!-- Google Login Button -->
+                <a href="#" class="googleBtn"> 
+                    <div>
+                        <i class="fi fi-brands-google"></i> 
+                        <p>Sign Up with Google</p>
+                    </div>
+                </a>
+            </div>
+            <!-- Email Input -->
+            <label for="Email" class="inputLabel">
+                Email: <br>
+                <!-- Input field for email -->
+                <input type="email" id="email" name="email" placeholder="Enter your email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required >
+            </label><br>
+            <!-- Password Input -->
+            <label for="password" class="inputLabel">
+                Password: <br>
+                <!-- Input field for password -->
+                <input type="password" id="password" placeholder="Enter your password" required>
+            </label><br>
+            <!-- Password Input -->
+            <label for="confirmPassword" class="inputLabel">
+                Confirm Password: <br>
+                <!-- Input field for confirm password -->
+                <input type="password" id="confirmPassword" placeholder="Confirm your password" required>
+            </label><br>
+            <!-- Submit Button -->
+            <label class="inputLabel">
+                <input type="submit" value="Submit" class="submitBtn">
+            </label>
+        </form>
+        <!-- Login Section -->
+        <div class="signUp">Already have an account? <a href="../Login/">Login</a></div>
+    </section>
+</body>
+</html>
