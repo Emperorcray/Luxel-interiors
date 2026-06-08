@@ -12,13 +12,12 @@ button{
 }
 @media screen and (min-width:1200px){
     header{
-        height: 13vh;
+        height: 81px;
         width: 100%;
     }
     nav{
-        height: 13vh;
-        width: 100%;
-        border: none;
+        height: 80px;
+        width: 100%;        
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -26,10 +25,17 @@ button{
         z-index: 1;
         background-color: white;
     }
+    .sidemenu{
+        display: none;
+    }
+    .sidenav{
+        display: none;
+    }
+    .cart-content{
+        display: none;
+    }
     /* This styles the logo */
     .logo{
-        height: 8vh;
-        width: 13vw;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -43,9 +49,9 @@ button{
     .logo>p{
         font-weight: 700;
     }
-    /* This styles the div that has the the index, aboutu, services, products and contact page links */ 
+    /* This styles the div that has the the index, about us, services, products and contact page links */ 
     .nav_link1{
-        height: 8vh;
+        height: 100%;
         width: 35vw;
         display: flex;
         justify-content: space-evenly;
@@ -55,7 +61,6 @@ button{
         color: black;
         text-decoration: none;
         display: inline-block;
-        height: 6vh;
         width: 6vw;
         align-content: center;
         text-align: center;
@@ -66,8 +71,8 @@ button{
     }
     /* This styles the div that has the cart and profile links */
     .nav_link2{
-        height: 6vh;
-        width: 8vw;
+        height: 100%;
+        width: 15vw;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -76,8 +81,15 @@ button{
         text-decoration: none;
         color: black;
     }
-    .nav_link2>:hover{
-        color: #e68429;
+    .signup_btn{
+        height: 40px;
+        width: 8vw;
+        background-color: #e68429;
+        text-align: center;
+        align-content: center;
+        font-weight: 600;
+        color: white;
+        border-radius: 6px 6px 6px 6px;
     }
     section{
         height: 260vh;
@@ -261,7 +273,7 @@ button{
         background-color: #a83f15;
     }
     footer{
-        height: 50vh;
+        height: 400px;
         width: 100%;
         border: 1px solid;
         background-color: rgb(17 24 39);
@@ -269,7 +281,7 @@ button{
         place-content: center;
     }
     .footer_1{
-        height: 30vh;
+        height: 200px;
         width: 94vw;
         border: 1px solid #b0b0b0;
         border-top: none;
@@ -280,7 +292,7 @@ button{
         align-items: center;
     }
     .footer_logo_div{
-        height: 25vh;
+        height: 150px;
         width: 22vw;
     }
     .footer_logo{
@@ -315,7 +327,7 @@ button{
         color: #e68429;
     }
     .quick_links{
-        height: 25vh;
+        height: 150px;
         width: 10vw;
     }
     .quick_links>p{
@@ -324,7 +336,7 @@ button{
         color: white;
     }
     .quick_links>div{
-        height: 20vh;
+        height: 120px;
         width: 6vw;
     }
     .quick_links>div>a{
@@ -337,7 +349,7 @@ button{
         color: #e68429;
     }
     .footer_services{
-        height: 25vh;
+        height: 160px;
         width: 13vw;
     }
     .footer_services>p{
@@ -352,7 +364,7 @@ button{
         margin-top: 8px;
     }
     .contact_info{
-        height: 25vh;
+        height: 150px;
         width: 23vw;
     }
     .contact_info>p{
@@ -371,9 +383,10 @@ button{
         margin-top: 8px;
     }
     .footer_2{
-        height: 10vh;
+        height: 60px;
         width: 90vw;
         text-align: center;
+        align-content: center;
         color: #b0b0b0;
         align-content: center;
     }
