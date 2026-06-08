@@ -332,7 +332,7 @@ body{
         font-weight: 700;
     }
     footer{
-        height: 50vh;
+        height: 400px;
         width: 100%;
         border: 1px solid;
         background-color: rgb(17 24 39);
@@ -340,7 +340,7 @@ body{
         place-content: center;
     }
     .footer_1{
-        height: 30vh;
+        height: 200px;
         width: 94vw;
         border: 1px solid #b0b0b0;
         border-top: none;
@@ -351,7 +351,7 @@ body{
         align-items: center;
     }
     .footer_logo_div{
-        height: 25vh;
+        height: 150px;
         width: 22vw;
     }
     .footer_logo{
@@ -386,7 +386,7 @@ body{
         color: #e68429;
     }
     .quick_links{
-        height: 25vh;
+        height: 150px;
         width: 10vw;
     }
     .quick_links>p{
@@ -395,7 +395,7 @@ body{
         color: white;
     }
     .quick_links>div{
-        height: 20vh;
+        height: 120px;
         width: 6vw;
     }
     .quick_links>div>a{
@@ -408,7 +408,7 @@ body{
         color: #e68429;
     }
     .footer_services{
-        height: 25vh;
+        height: 160px;
         width: 13vw;
     }
     .footer_services>p{
@@ -423,7 +423,7 @@ body{
         margin-top: 8px;
     }
     .contact_info{
-        height: 25vh;
+        height: 150px;
         width: 23vw;
     }
     .contact_info>p{
@@ -442,9 +442,10 @@ body{
         margin-top: 8px;
     }
     .footer_2{
-        height: 10vh;
+        height: 60px;
         width: 90vw;
         text-align: center;
+        align-content: center;
         color: #b0b0b0;
         align-content: center;
     }
